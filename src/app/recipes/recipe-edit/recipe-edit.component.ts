@@ -8,7 +8,8 @@ import {ActivatedRoute, Params} from '@angular/router';
 })
 export class RecipeEditComponent implements OnInit {
   id: number;
-  editMode: false;
+  editMode: boolean;
+  // editMode: false; according to tutorial
 
   constructor(private route: ActivatedRoute) { }
 
